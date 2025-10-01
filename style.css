@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+#game-container {
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+  position: relative;
+  background: linear-gradient(to bottom, #000428, #004e92);
+}
+
+.score-board {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 20px;
+}
